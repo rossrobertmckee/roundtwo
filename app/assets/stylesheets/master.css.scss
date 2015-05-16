@@ -77,3 +77,22 @@ h2 {
 .logo:hover {
     text-decoration:none;
 }
+
+@media (max-width: 750px) {
+    .footer-blurb {
+    text-align: left;
+    }
+}
+
+.modal {
+  font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans-serif;
+}
+
+h2 span {
+    color: dddddd;
+    font-family: 'fff_tusjbold';
+}
+
+::selection {
+  background-color: #f84342;
+}
